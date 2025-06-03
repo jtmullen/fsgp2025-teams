@@ -20,6 +20,15 @@
 .accordion-button:not(.collapsed)::after {
   transform: rotate(180deg);
 }
+.accordion-button::after {
+  font-size: 1.5rem;
+}
+.accordion-button {
+  transition: background-color 0.3s ease;
+}
+.accordion-button:hover {
+  background-color: #f1f1f1;
+}
 </style>
 <div class="accordion mx-auto px-2" style="max-width: 98%;" id="solarTeamAccordion">
   <div class="accordion-item">
@@ -49,6 +58,7 @@
             <a href="https://www.linkedin.com/company/purduesolar" target="_blank" class="text-dark me-2"><i class="fab fa-linkedin fa-lg"></i></a>
             <a href="https://www.flickr.com/photos/197723137@N07/albums" target="_blank" class="text-dark"><i class="fab fa-flickr fa-lg"></i></a>
             </div>
+            <span class="badge bg-secondary ms-2">Click to Expand</span>
           </div>
         </div>
       </button>
