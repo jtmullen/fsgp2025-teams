@@ -2,7 +2,8 @@ name: Build & Depoy site
 
 on:
   push:
-    - main
+    branches:
+      - main
 
 jobs:
   # Build job
