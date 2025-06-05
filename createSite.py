@@ -77,9 +77,9 @@ with open("team-data.csv", 'r', newline='') as datafile:
             <p class="text-muted mb-1">{team['School Name']}</p>
             <div class="small mb-1">""")
 			if team['Class'] == "SOV":
-				htmlfile.write(f"""             <span>{team['Weight']}kg</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Dimensions']}</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Wheels']} wheels</span>" />""")
+				htmlfile.write(f"""             <span>{team['Weight']}kg</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Dimensions']}</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Wheels']} wheels</span>""")
 			else:
-				htmlfile.write(f"""             <span>{team['Weight']}kg</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Dimensions']}</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Passengers']} Passengers</span>" />""")
+				htmlfile.write(f"""             <span>{team['Weight']}kg</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Dimensions']}</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Passengers']} Passengers</span>""")
             
 			htmlfile.write(f"""
             </div>
