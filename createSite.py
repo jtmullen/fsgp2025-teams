@@ -75,7 +75,7 @@ with open("team-data.csv", 'r', newline='') as datafile:
 			
 			htmlfile.write(f"""            <h4 class="mb-0">{team['Team Name']}</h4>
             <p class="text-muted mb-1">{team['School Name']}</p>
-            <div class="fs-5 mb-2">""")
+            <div class="fs-6 mb-2">""")
 			if team['Class'] == "SOV":
 				htmlfile.write(f"""             <span>{team['Weight']}kg</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Dimensions']}</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<span>{team['Wheels']} wheels</span>""")
 			else:
@@ -83,8 +83,8 @@ with open("team-data.csv", 'r', newline='') as datafile:
             
 			htmlfile.write(f"""
             </div>
-            <div class="fs-5 mb-2">{team['Solar Power']}W {team['Solar Manu']} {team['Solar Chemistry']} array</div>
-            <div class="fs-5 mb-2">{team['Battery Power']}kWh {team['Battery Manu']} {team['Battery Chemistry']} battery</div>""")
+            <div class="fs-6 mb-2">{team['Solar Power']}W {team['Solar Manu']} {team['Solar Chemistry']} array</div>
+            <div class="fs-6 mb-2">{team['Battery Power']}kWh {team['Battery Manu']} {team['Battery Chemistry']} battery</div>""")
 			
 			htmlfile.write("""            <div class="mt-2">""")
 			
