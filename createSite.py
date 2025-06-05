@@ -52,7 +52,7 @@ with open("team-data.csv", 'r', newline='') as datafile:
 			
 			htmlfile.write(f"""<div class="accordion-item">
     <h2 class="accordion-header" id="heading-{identifier}">
-      <button class="accordion-button collapsed d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{identifier}" aria-expanded="false" aria-controls="collapse-{identifier}" style="cursor: pointer;">
+      <button class="accordion-button {"" if firstRun else "collapsed"} d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{identifier}" aria-expanded="false" aria-controls="collapse-{identifier}" style="cursor: pointer;">
         <div class="row w-100">
           <div class="col-md-6">
             <img class="img-fluid team-photo" src="./img/{team['Number']}.jpg" alt="{team['Team Name']} Team Photo" />
@@ -123,6 +123,8 @@ with open("team-data.csv", 'r', newline='') as datafile:
     </div>
   </div>""")
 			
+			firstRun = False
+
 		print("Ending Accordion, Adding Footer")
 		
 		htmlfile.write("""</div>
