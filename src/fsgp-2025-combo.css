@@ -24,33 +24,33 @@
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	#jekyll-site-wrapper html, #jekyll-site-wrapper body, #jekyll-site-wrapper div, #jekyll-site-wrapper span, #jekyll-site-wrapper applet, #jekyll-site-wrapper object, #jekyll-site-wrapper iframe, #jekyll-site-wrapper h1, #jekyll-site-wrapper h2, #jekyll-site-wrapper h3, #jekyll-site-wrapper h4, #jekyll-site-wrapper h5, #jekyll-site-wrapper h6, #jekyll-site-wrapper p, #jekyll-site-wrapper blockquote, #jekyll-site-wrapper pre, #jekyll-site-wrapper a, #jekyll-site-wrapper abbr, #jekyll-site-wrapper acronym, #jekyll-site-wrapper address, #jekyll-site-wrapper big, #jekyll-site-wrapper cite, #jekyll-site-wrapper code, #jekyll-site-wrapper del, #jekyll-site-wrapper dfn, #jekyll-site-wrapper em, #jekyll-site-wrapper img, #jekyll-site-wrapper ins, #jekyll-site-wrapper kbd, #jekyll-site-wrapper q, #jekyll-site-wrapper s, #jekyll-site-wrapper samp, #jekyll-site-wrapper small, #jekyll-site-wrapper strike, #jekyll-site-wrapper strong, #jekyll-site-wrapper sub, #jekyll-site-wrapper sup, #jekyll-site-wrapper tt, #jekyll-site-wrapper var, #jekyll-site-wrapper b, #jekyll-site-wrapper u, #jekyll-site-wrapper i, #jekyll-site-wrapper center, #jekyll-site-wrapper dl, #jekyll-site-wrapper dt, #jekyll-site-wrapper dd, #jekyll-site-wrapper ol, #jekyll-site-wrapper ul, #jekyll-site-wrapper li, #jekyll-site-wrapper fieldset, #jekyll-site-wrapper form, #jekyll-site-wrapper label, #jekyll-site-wrapper legend, #jekyll-site-wrapper table, #jekyll-site-wrapper caption, #jekyll-site-wrapper tbody, #jekyll-site-wrapper tfoot, #jekyll-site-wrapper thead, #jekyll-site-wrapper tr, #jekyll-site-wrapper th, #jekyll-site-wrapper td, #jekyll-site-wrapper article, #jekyll-site-wrapper aside, #jekyll-site-wrapper canvas, #jekyll-site-wrapper details, #jekyll-site-wrapper embed, #jekyll-site-wrapper figure, #jekyll-site-wrapper figcaption, #jekyll-site-wrapper footer, #jekyll-site-wrapper header, #jekyll-site-wrapper hgroup, #jekyll-site-wrapper menu, #jekyll-site-wrapper nav, #jekyll-site-wrapper output, #jekyll-site-wrapper ruby, #jekyll-site-wrapper section, #jekyll-site-wrapper summary, #jekyll-site-wrapper time, #jekyll-site-wrapper mark, #jekyll-site-wrapper audio, #jekyll-site-wrapper video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline; }
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	#jekyll-site-wrapper article, #jekyll-site-wrapper aside, #jekyll-site-wrapper details, #jekyll-site-wrapper figcaption, #jekyll-site-wrapper figure, #jekyll-site-wrapper footer, #jekyll-site-wrapper header, #jekyll-site-wrapper hgroup, #jekyll-site-wrapper menu, #jekyll-site-wrapper nav, #jekyll-site-wrapper section {
 		display: block; }
-	body {
+	#jekyll-site-wrapper body { /* This selector is tricky if you have a body selector in your WP theme */
 		line-height: 1; }
-	ol, ul {
+	#jekyll-site-wrapper ol, #jekyll-site-wrapper ul {
 		list-style: none; }
-	blockquote, q {
+	#jekyll-site-wrapper blockquote, #jekyll-site-wrapper q {
 		quotes: none; }
-	blockquote:before, blockquote:after,
-	q:before, q:after {
+	#jekyll-site-wrapper blockquote:before, #jekyll-site-wrapper blockquote:after,
+	#jekyll-site-wrapper q:before, #jekyll-site-wrapper q:after {
 		content: '';
 		content: none; }
-	table {
+	#jekyll-site-wrapper table {
 		border-collapse: collapse;
 		border-spacing: 0; }
 
 
 /* #Basic Styles
 ================================================== */
-	body {
+	#jekyll-site-wrapper body { /* This selector is tricky if you have a body selector in your WP theme */
 		background: #fff;
 		font: 14px/21px "Raleway", "HelveticaNeue-Light", Arial, sans-serif;
 		color: #444;
@@ -61,60 +61,60 @@
 
 /* #Typography
 ================================================== */
-	h1, h2, h3, h4, h5, h6 {
+	#jekyll-site-wrapper h1, #jekyll-site-wrapper h2, #jekyll-site-wrapper h3, #jekyll-site-wrapper h4, #jekyll-site-wrapper h5, #jekyll-site-wrapper h6 {
 		font-weight: 300; }
-	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
-	h5 { font-size: 17px; line-height: 24px; }
-	h6 { font-size: 14px; line-height: 21px; }
-	.subheader { color: #777; }
+	#jekyll-site-wrapper h1 a, #jekyll-site-wrapper h2 a, #jekyll-site-wrapper h3 a, #jekyll-site-wrapper h4 a, #jekyll-site-wrapper h5 a, #jekyll-site-wrapper h6 a { font-weight: inherit; }
+	#jekyll-site-wrapper h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
+	#jekyll-site-wrapper h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+	#jekyll-site-wrapper h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+	#jekyll-site-wrapper h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+	#jekyll-site-wrapper h5 { font-size: 17px; line-height: 24px; }
+	#jekyll-site-wrapper h6 { font-size: 14px; line-height: 21px; }
+	#jekyll-site-wrapper .subheader { color: #777; }
 
-	p { margin: 0 0 20px 0; }
-	p img { margin: 0; }
-	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+	#jekyll-site-wrapper p { margin: 0 0 20px 0; }
+	#jekyll-site-wrapper p img { margin: 0; }
+	#jekyll-site-wrapper p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 
-	em { font-style: italic; }
-	strong { font-weight: bold; }
-	small { font-size: 80%; }
+	#jekyll-site-wrapper em { font-style: italic; }
+	#jekyll-site-wrapper strong { font-weight: bold; }
+	#jekyll-site-wrapper small { font-size: 80%; }
 
 /*	Blockquotes  */
-	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
-	blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
-	blockquote cite { display: block; font-size: 12px; color: #555; }
-	blockquote cite:before { content: "\2014 \0020"; }
-	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+	#jekyll-site-wrapper blockquote, #jekyll-site-wrapper blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
+	#jekyll-site-wrapper blockquote { margin: 0 0 20px; padding: 9px 20px 0 19px; border-left: 1px solid #ddd; }
+	#jekyll-site-wrapper blockquote cite { display: block; font-size: 12px; color: #555; }
+	#jekyll-site-wrapper blockquote cite:before { content: "\2014 \0020"; }
+	#jekyll-site-wrapper blockquote cite a, #jekyll-site-wrapper blockquote cite a:visited, #jekyll-site-wrapper blockquote cite a:visited { color: #555; }
 
-	hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
+	#jekyll-site-wrapper hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 
 /* #Links
 ================================================== */
-	a, a:visited { text-decoration: underline; outline: 0; }
-	a:hover, a:focus { }
-	p a, p a:visited { line-height: inherit; }
+	#jekyll-site-wrapper a, #jekyll-site-wrapper a:visited { text-decoration: underline; outline: 0; }
+	#jekyll-site-wrapper a:hover, #jekyll-site-wrapper a:focus { }
+	#jekyll-site-wrapper p a, #jekyll-site-wrapper p a:visited { line-height: inherit; }
 
 
 /* #Lists
 ================================================== */
-	ul, ol { margin-bottom: 20px; }
-	ul { list-style: none outside; }
-	ol { list-style: decimal; }
-	ul, ul.square { list-style: square outside; }
-	ul ul, ul.circle { list-style: circle outside; }
-	ul ul ul, ul.disc { list-style: disc outside; }
-	ul ul li, ul ol li,
-	ol ol li, ol ul li { margin-bottom: 6px; }
-	li { line-height: 18px; margin-bottom: 12px; }
-	ul.large li { line-height: 21px; }
-	li p { line-height: 21px; }
+	#jekyll-site-wrapper ul, #jekyll-site-wrapper ol { margin-bottom: 20px; }
+	#jekyll-site-wrapper ul { list-style: none outside; }
+	#jekyll-site-wrapper ol { list-style: decimal; }
+	#jekyll-site-wrapper ul, #jekyll-site-wrapper ul.square { list-style: square outside; }
+	#jekyll-site-wrapper ul ul, #jekyll-site-wrapper ul.circle { list-style: circle outside; }
+	#jekyll-site-wrapper ul ul ul, #jekyll-site-wrapper ul.disc { list-style: disc outside; }
+	#jekyll-site-wrapper ul ul li, #jekyll-site-wrapper ul ol li,
+	#jekyll-site-wrapper ol ol li, #jekyll-site-wrapper ol ul li { margin-bottom: 6px; }
+	#jekyll-site-wrapper li { line-height: 18px; margin-bottom: 12px; }
+	#jekyll-site-wrapper ul.large li { line-height: 21px; }
+	#jekyll-site-wrapper li p { line-height: 21px; }
 
 /* #Images
 ================================================== */
 
-	img.scale-with-grid {
+	#jekyll-site-wrapper img.scale-with-grid {
 		max-width: 100%;
 		height: auto; }
 
@@ -122,11 +122,11 @@
 /* #Buttons
 ================================================== */
 
-	.button,
-	button,
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"] {
+	#jekyll-site-wrapper .button,
+	#jekyll-site-wrapper button,
+	#jekyll-site-wrapper input[type="submit"],
+	#jekyll-site-wrapper input[type="reset"],
+	#jekyll-site-wrapper input[type="button"] {
 		background: #eee; /* Old browsers */
 		background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%); /* FF3.6+ */
 		background: #eee -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.2)), color-stop(100%,rgba(0,0,0,.2))); /* Chrome,Safari4+ */
@@ -152,11 +152,11 @@
 	  padding: 8px 10px;
 	  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-	.button:hover,
-	button:hover,
-	input[type="submit"]:hover,
-	input[type="reset"]:hover,
-	input[type="button"]:hover {
+	#jekyll-site-wrapper .button:hover,
+	#jekyll-site-wrapper button:hover,
+	#jekyll-site-wrapper input[type="submit"]:hover,
+	#jekyll-site-wrapper input[type="reset"]:hover,
+	#jekyll-site-wrapper input[type="button"]:hover {
 		color: #222;
 		background: #ddd; /* Old browsers */
 		background: #ddd -moz-linear-gradient(top, rgba(255,255,255,.3) 0%, rgba(0,0,0,.3) 100%); /* FF3.6+ */
@@ -169,11 +169,11 @@
 	  border-top: 1px solid #aaa;
 	  border-left: 1px solid #aaa; }
 
-	.button:active,
-	button:active,
-	input[type="submit"]:active,
-	input[type="reset"]:active,
-	input[type="button"]:active {
+	#jekyll-site-wrapper .button:active,
+	#jekyll-site-wrapper button:active,
+	#jekyll-site-wrapper input[type="submit"]:active,
+	#jekyll-site-wrapper input[type="reset"]:active,
+	#jekyll-site-wrapper input[type="button"]:active {
 		border: 1px solid #666;
 		background: #ccc; /* Old browsers */
 		background: #ccc -moz-linear-gradient(top, rgba(255,255,255,.35) 0%, rgba(10,10,10,.4) 100%); /* FF3.6+ */
@@ -183,19 +183,19 @@
 		background: #ccc -ms-linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* IE10+ */
 		background: #ccc linear-gradient(top, rgba(255,255,255,.35) 0%,rgba(10,10,10,.4) 100%); /* W3C */ }
 
-	.button.full-width,
-	button.full-width,
-	input[type="submit"].full-width,
-	input[type="reset"].full-width,
-	input[type="button"].full-width {
+	#jekyll-site-wrapper .button.full-width,
+	#jekyll-site-wrapper button.full-width,
+	#jekyll-site-wrapper input[type="submit"].full-width,
+	#jekyll-site-wrapper input[type="reset"].full-width,
+	#jekyll-site-wrapper input[type="button"].full-width {
 		width: 100%;
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 		text-align: center; }
 
 	/* Fix for odd Mozilla border & padding issues */
-	button::-moz-focus-inner,
-	input::-moz-focus-inner {
+	#jekyll-site-wrapper button::-moz-focus-inner,
+	#jekyll-site-wrapper input::-moz-focus-inner {
     border: 0;
     padding: 0;
 	}
@@ -204,15 +204,15 @@
 /* #Forms
 ================================================== */
 
-	form {
+	#jekyll-site-wrapper form {
 		margin-bottom: 20px; }
-	fieldset {
+	#jekyll-site-wrapper fieldset {
 		margin-bottom: 20px; }
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	textarea,
-	select {
+	#jekyll-site-wrapper input[type="text"],
+	#jekyll-site-wrapper input[type="password"],
+	#jekyll-site-wrapper input[type="email"],
+	#jekyll-site-wrapper textarea,
+	#jekyll-site-wrapper select {
 		border: 1px solid #ccc;
 		padding: 6px 4px;
 		outline: none;
@@ -227,39 +227,39 @@
 		display: block;
 		margin-bottom: 20px;
 		background: #fff; }
-	select {
+	#jekyll-site-wrapper select {
 		padding: 0; }
-	input[type="text"]:focus,
-	input[type="password"]:focus,
-	input[type="email"]:focus,
-	textarea:focus {
+	#jekyll-site-wrapper input[type="text"]:focus,
+	#jekyll-site-wrapper input[type="password"]:focus,
+	#jekyll-site-wrapper input[type="email"]:focus,
+	#jekyll-site-wrapper textarea:focus {
 		border: 1px solid #aaa;
  		color: #444;
  		-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
 		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
 		box-shadow:  0 0 3px rgba(0,0,0,.2); }
-	textarea {
+	#jekyll-site-wrapper textarea {
 		min-height: 60px; }
-	label,
-	legend {
+	#jekyll-site-wrapper label,
+	#jekyll-site-wrapper legend {
 		display: block;
 		font-weight: bold;
 		font-size: 13px;  }
-	select {
+	#jekyll-site-wrapper select {
 		width: 220px; }
-	input[type="checkbox"] {
+	#jekyll-site-wrapper input[type="checkbox"] {
 		display: inline; }
-	label span,
-	legend span {
+	#jekyll-site-wrapper label span,
+	#jekyll-site-wrapper legend span {
 		font-weight: normal;
 		font-size: 13px;
 		color: #444; }
 
 /* #Misc
 ================================================== */
-	.remove-bottom { margin-bottom: 0 !important; }
-	.half-bottom { margin-bottom: 10px !important; }
-	.add-bottom { margin-bottom: 20px !important; }
+	#jekyll-site-wrapper .remove-bottom { margin-bottom: 0 !important; }
+	#jekyll-site-wrapper .half-bottom { margin-bottom: 10px !important; }
+	#jekyll-site-wrapper .add-bottom { margin-bottom: 20px !important; }
 
 
 
@@ -267,31 +267,31 @@
   ================================================== */
 
 
-.highlight {
+#jekyll-site-wrapper .highlight {
   color: #f8f8f2;
   table-layout: fixed;
   white-space: nowrap;
   width:90%;
 }
 
-.highlight pre, .highlight code { display:block; margin:0; padding:0; background: none; overflow:auto; word-wrap: normal; }
+#jekyll-site-wrapper .highlight pre, #jekyll-site-wrapper .highlight code { display:block; margin:0; padding:0; background: none; overflow:auto; word-wrap: normal; }
 
-.highlight, .linenodiv {
+#jekyll-site-wrapper .highlight, #jekyll-site-wrapper .linenodiv {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWPQ1dU1BgABzQC7XXMTYQAAAABJRU5ErkJggg==);
   display:block;
   padding: 10px;
   margin-bottom:20px;
 }
-.gutter, .lineno { color: #ccc; }
+#jekyll-site-wrapper .gutter, #jekyll-site-wrapper .lineno { color: #ccc; }
 
-td.gl { width: 40px; }
+#jekyll-site-wrapper td.gl { width: 40px; }
 
-.gutter {
+#jekyll-site-wrapper .gutter {
   border-right: none;
   padding: 10px;
   text-align: right;
 }
-span.lineno {
+#jekyll-site-wrapper span.lineno {
   display: block;
   float: left;
   width: 40px;
@@ -300,70 +300,70 @@ span.lineno {
 }
 
 
-.hll { background-color: #49483e }
-.c { color: #75715e } /* Comment */
-.err { color: #960050; background-color: #1e0010 } /* Error */
-.k { color: #66d9ef } /* Keyword */
-.l { color: #ae81ff } /* Literal */
-.n { color: #f8f8f2 } /* Name */
-.o { color: #f92672 } /* Operator */
-.p { color: #f8f8f2 } /* Punctuation */
-.cm { color: #75715e } /* Comment.Multiline */
-.cp { color: #75715e } /* Comment.Preproc */
-.c1 { color: #75715e } /* Comment.Single */
-.cs { color: #75715e } /* Comment.Special */
-.ge { font-style: italic } /* Generic.Emph */
-.gs { font-weight: bold } /* Generic.Strong */
-.kc { color: #66d9ef } /* Keyword.Constant */
-.kd { color: #66d9ef } /* Keyword.Declaration */
-.kn { color: #f92672 } /* Keyword.Namespace */
-.kp { color: #66d9ef } /* Keyword.Pseudo */
-.kr { color: #66d9ef } /* Keyword.Reserved */
-.kt { color: #66d9ef } /* Keyword.Type */
-.ld { color: #e6db74 } /* Literal.Date */
-.m { color: #ae81ff } /* Literal.Number */
-.s { color: #e6db74 } /* Literal.String */
-.na { color: #a6e22e } /* Name.Attribute */
-.nb { color: #f8f8f2 } /* Name.Builtin */
-.nc { color: #a6e22e } /* Name.Class */
-.no { color: #66d9ef } /* Name.Constant */
-.nd { color: #a6e22e } /* Name.Decorator */
-.ni { color: #f8f8f2 } /* Name.Entity */
-.ne { color: #a6e22e } /* Name.Exception */
-.nf { color: #a6e22e } /* Name.Function */
-.nl { color: #f8f8f2 } /* Name.Label */
-.nn { color: #f8f8f2 } /* Name.Namespace */
-.nx { color: #a6e22e } /* Name.Other */
-.py { color: #f8f8f2 } /* Name.Property */
-.nt { color: #f92672 } /* Name.Tag */
-.nv { color: #f8f8f2 } /* Name.Variable */
-.ow { color: #f92672 } /* Operator.Word */
-.w { color: #f8f8f2 } /* Text.Whitespace */
-.mf { color: #ae81ff } /* Literal.Number.Float */
-.mh { color: #ae81ff } /* Literal.Number.Hex */
-.mi { color: #ae81ff } /* Literal.Number.Integer */
-.mo { color: #ae81ff } /* Literal.Number.Oct */
-.sb { color: #e6db74 } /* Literal.String.Backtick */
-.sc { color: #e6db74 } /* Literal.String.Char */
-.sd { color: #e6db74 } /* Literal.String.Doc */
-.s2 { color: #e6db74 } /* Literal.String.Double */
-.se { color: #ae81ff } /* Literal.String.Escape */
-.sh { color: #e6db74 } /* Literal.String.Heredoc */
-.si { color: #e6db74 } /* Literal.String.Interpol */
-.sx { color: #e6db74 } /* Literal.String.Other */
-.sr { color: #e6db74 } /* Literal.String.Regex */
-.s1 { color: #e6db74 } /* Literal.String.Single */
-.ss { color: #e6db74 } /* Literal.String.Symbol */
-.bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
-.vc { color: #f8f8f2 } /* Name.Variable.Class */
-.vg { color: #f8f8f2 } /* Name.Variable.Global */
-.vi { color: #f8f8f2 } /* Name.Variable.Instance */
-.il { color: #ae81ff } /* Literal.Number.Integer.Long */
+#jekyll-site-wrapper .hll { background-color: #49483e }
+#jekyll-site-wrapper .c { color: #75715e } /* Comment */
+#jekyll-site-wrapper .err { color: #960050; background-color: #1e0010 } /* Error */
+#jekyll-site-wrapper .k { color: #66d9ef } /* Keyword */
+#jekyll-site-wrapper .l { color: #ae81ff } /* Literal */
+#jekyll-site-wrapper .n { color: #f8f8f2 } /* Name */
+#jekyll-site-wrapper .o { color: #f92672 } /* Operator */
+#jekyll-site-wrapper .p { color: #f8f8f2 } /* Punctuation */
+#jekyll-site-wrapper .cm { color: #75715e } /* Comment.Multiline */
+#jekyll-site-wrapper .cp { color: #75715e } /* Comment.Preproc */
+#jekyll-site-wrapper .c1 { color: #75715e } /* Comment.Single */
+#jekyll-site-wrapper .cs { color: #75715e } /* Comment.Special */
+#jekyll-site-wrapper .ge { font-style: italic } /* Generic.Emph */
+#jekyll-site-wrapper .gs { font-weight: bold } /* Generic.Strong */
+#jekyll-site-wrapper .kc { color: #66d9ef } /* Keyword.Constant */
+#jekyll-site-wrapper .kd { color: #66d9ef } /* Keyword.Declaration */
+#jekyll-site-wrapper .kn { color: #f92672 } /* Keyword.Namespace */
+#jekyll-site-wrapper .kp { color: #66d9ef } /* Keyword.Pseudo */
+#jekyll-site-wrapper .kr { color: #66d9ef } /* Keyword.Reserved */
+#jekyll-site-wrapper .kt { color: #66d9ef } /* Keyword.Type */
+#jekyll-site-wrapper .ld { color: #e6db74 } /* Literal.Date */
+#jekyll-site-wrapper .m { color: #ae81ff } /* Literal.Number */
+#jekyll-site-wrapper .s { color: #e6db74 } /* Literal.String */
+#jekyll-site-wrapper .na { color: #a6e22e } /* Name.Attribute */
+#jekyll-site-wrapper .nb { color: #f8f8f2 } /* Name.Builtin */
+#jekyll-site-wrapper .nc { color: #a6e22e } /* Name.Class */
+#jekyll-site-wrapper .no { color: #66d9ef } /* Name.Constant */
+#jekyll-site-wrapper .nd { color: #a6e22e } /* Name.Decorator */
+#jekyll-site-wrapper .ni { color: #f8f8f2 } /* Name.Entity */
+#jekyll-site-wrapper .ne { color: #a6e22e } /* Name.Exception */
+#jekyll-site-wrapper .nf { color: #a6e22e } /* Name.Function */
+#jekyll-site-wrapper .nl { color: #f8f8f2 } /* Name.Label */
+#jekyll-site-wrapper .nn { color: #f8f8f2 } /* Name.Namespace */
+#jekyll-site-wrapper .nx { color: #a6e22e } /* Name.Other */
+#jekyll-site-wrapper .py { color: #f8f8f2 } /* Name.Property */
+#jekyll-site-wrapper .nt { color: #f92672 } /* Name.Tag */
+#jekyll-site-wrapper .nv { color: #f8f8f2 } /* Name.Variable */
+#jekyll-site-wrapper .ow { color: #f92672 } /* Operator.Word */
+#jekyll-site-wrapper .w { color: #f8f8f2 } /* Text.Whitespace */
+#jekyll-site-wrapper .mf { color: #ae81ff } /* Literal.Number.Float */
+#jekyll-site-wrapper .mh { color: #ae81ff } /* Literal.Number.Hex */
+#jekyll-site-wrapper .mi { color: #ae81ff } /* Literal.Number.Integer */
+#jekyll-site-wrapper .mo { color: #ae81ff } /* Literal.Number.Oct */
+#jekyll-site-wrapper .sb { color: #e6db74 } /* Literal.String.Backtick */
+#jekyll-site-wrapper .sc { color: #e6db74 } /* Literal.String.Char */
+#jekyll-site-wrapper .sd { color: #e6db74 } /* Literal.String.Doc */
+#jekyll-site-wrapper .s2 { color: #e6db74 } /* Literal.String.Double */
+#jekyll-site-wrapper .se { color: #ae81ff } /* Literal.String.Escape */
+#jekyll-site-wrapper .sh { color: #e6db74 } /* Literal.String.Heredoc */
+#jekyll-site-wrapper .si { color: #e6db74 } /* Literal.String.Interpol */
+#jekyll-site-wrapper .sx { color: #e6db74 } /* Literal.String.Other */
+#jekyll-site-wrapper .sr { color: #e6db74 } /* Literal.String.Regex */
+#jekyll-site-wrapper .s1 { color: #e6db74 } /* Literal.String.Single */
+#jekyll-site-wrapper .ss { color: #e6db74 } /* Literal.String.Symbol */
+#jekyll-site-wrapper .bp { color: #f8f8f2 } /* Name.Builtin.Pseudo */
+#jekyll-site-wrapper .vc { color: #f8f8f2 } /* Name.Variable.Class */
+#jekyll-site-wrapper .vg { color: #f8f8f2 } /* Name.Variable.Global */
+#jekyll-site-wrapper .vi { color: #f8f8f2 } /* Name.Variable.Instance */
+#jekyll-site-wrapper .il { color: #ae81ff } /* Literal.Number.Integer.Long */
 
-.gh { } /* Generic Heading & Diff Header */
-.gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
-.gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
-.gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
+#jekyll-site-wrapper .gh { } /* Generic Heading & Diff Header */
+#jekyll-site-wrapper .gu { color: #75715e; } /* Generic.Subheading & Diff Unified/Comment? */
+#jekyll-site-wrapper .gd { color: #f92672; } /* Generic.Deleted & Diff Deleted */
+#jekyll-site-wrapper .gi { color: #a6e22e; } /* Generic.Inserted & Diff Inserted */
 
 
 /* -----------------------------------*/
@@ -377,48 +377,48 @@ span.lineno {
 
 /* ----- base grid----- */
 
-.container               { position: relative; width: 960px; margin: 0 auto; padding: 0; }
-.container .column       { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-.row                     { margin-bottom: 20px; }
+#jekyll-site-wrapper .container               { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+#jekyll-site-wrapper .container .column       { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+#jekyll-site-wrapper .row                     { margin-bottom: 20px; }
 
-.container .small.column { width: 300px; }
-.container .half.column  { width: 460px; }
-.container .big.column   { width: 620px; }
-.container .full.column  { width: 940px; }
+#jekyll-site-wrapper .container .small.column { width: 300px; }
+#jekyll-site-wrapper .container .half.column  { width: 460px; }
+#jekyll-site-wrapper .container .big.column   { width: 620px; }
+#jekyll-site-wrapper .container .full.column  { width: 940px; }
 
 
 /* ----- Tablet (Portrait) -- 768px ----- */
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .container               { width: 768px; }
+    #jekyll-site-wrapper .container               { width: 768px; }
 
-    .container .small.column { width: 236px; }
-    .container .half.column  { width: 364px; }
-    .container .big.column   { width: 488px; }
-    .container .full.column  { width: 748px; }
+    #jekyll-site-wrapper .container .small.column { width: 236px; }
+    #jekyll-site-wrapper .container .half.column  { width: 364px; }
+    #jekyll-site-wrapper .container .big.column   { width: 488px; }
+    #jekyll-site-wrapper .container .full.column  { width: 748px; }
   }
 
 
 /* ----- Mobile (Portrait) ----- */
   @media only screen and (max-width: 767px) {
-    .container                { width:  96%; }
-    .container .column        { margin:  1%; }
+    #jekyll-site-wrapper .container                { width:  96%; }
+    #jekyll-site-wrapper .container .column        { margin:  1%; }
 
-    .container .small.column { width: 48%; }
-    .container .half.column  { width: 48%; }
-    .container .big.column   { width: 98%; }
-    .container .full.column  { width: 98%; }
+    #jekyll-site-wrapper .container .small.column { width: 48%; }
+    #jekyll-site-wrapper .container .half.column  { width: 48%; }
+    #jekyll-site-wrapper .container .big.column   { width: 98%; }
+    #jekyll-site-wrapper .container .full.column  { width: 98%; }
   }
 
 
 /* ----- Mobile (Landscape) -- 480px ----- */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .container                { width:  92%; }
-    .container .column        { margin:  2%; }
+    #jekyll-site-wrapper .container                { width:  92%; }
+    #jekyll-site-wrapper .container .column        { margin:  2%; }
 
-    .container .small.column { width: 46%; }
-    .container .half.column  { width: 46%; }
-    .container .big.column   { width: 96%; }
-    .container .full.column  { width: 96%; }
+    #jekyll-site-wrapper .container .small.column { width: 46%; }
+    #jekyll-site-wrapper .container .half.column  { width: 46%; }
+    #jekyll-site-wrapper .container .big.column   { width: 96%; }
+    #jekyll-site-wrapper .container .full.column  { width: 96%; }
   }
 
 
@@ -426,29 +426,29 @@ span.lineno {
 /* ----- Clearing ----- */
 
   /* Self Clearing Goodness */
-  .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+  #jekyll-site-wrapper .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
 
   /* Use clearfix class on parent to clear nested columns,
   or wrap each row of columns in a <div class="row"> */
-  .clearfix:before,
-  .clearfix:after,
-  .row:before,
-  .row:after {
+  #jekyll-site-wrapper .clearfix:before,
+  #jekyll-site-wrapper .clearfix:after,
+  #jekyll-site-wrapper .row:before,
+  #jekyll-site-wrapper .row:after {
     content: '\0020';
     display: block;
     overflow: hidden;
     visibility: hidden;
     width: 0;
     height: 0; }
-  .row:after,
-  .clearfix:after {
+  #jekyll-site-wrapper .row:after,
+  #jekyll-site-wrapper .clearfix:after {
     clear: both; }
-  .row,
-  .clearfix {
+  #jekyll-site-wrapper .row,
+  #jekyll-site-wrapper .clearfix {
     zoom: 1; }
 
   /* You can also use a <br class="clear" /> to clear columns */
-  .clear {
+  #jekyll-site-wrapper .clear {
     clear: both;
     display: block;
     overflow: hidden;
@@ -457,8 +457,8 @@ span.lineno {
     height: 0;
   }
 
-html { box-sizing: border-box; }
-*, *:before, *:after { box-sizing: inherit; }
+#jekyll-site-wrapper html { box-sizing: border-box; } /* Be careful with this, as it affects the whole page */
+#jekyll-site-wrapper *, #jekyll-site-wrapper *:before, #jekyll-site-wrapper *:after { box-sizing: inherit; } /* Be careful with this */
 
 /* ---------------------------*/
 /* ----- Special Styles ----- */
@@ -467,40 +467,40 @@ html { box-sizing: border-box; }
 /* ----- colors (autogenerated from _config.yml)----- */
 
 
-.border-black { border-color: #111111 !important; }
-.text-black   { color: #111111; }
-.text-black a { color: #111111; }
-.bg-black     { background-color: #111111 !important; }
+#jekyll-site-wrapper .border-black { border-color: #111111 !important; }
+#jekyll-site-wrapper .text-black   { color: #111111; }
+#jekyll-site-wrapper .text-black a { color: #111111; }
+#jekyll-site-wrapper .bg-black     { background-color: #111111 !important; }
 
-.border-white { border-color: #f8f8f8 !important; }
-.text-white   { color: #f8f8f8; }
-.text-white a { color: #f8f8f8; }
-.bg-white     { background-color: #f8f8f8 !important; }
+#jekyll-site-wrapper .border-white { border-color: #f8f8f8 !important; }
+#jekyll-site-wrapper .text-white   { color: #f8f8f8; }
+#jekyll-site-wrapper .text-white a { color: #f8f8f8; }
+#jekyll-site-wrapper .bg-white     { background-color: #f8f8f8 !important; }
 
-.border-blue { border-color: #49a7e9 !important; }
-.text-blue   { color: #49a7e9; }
-.text-blue a { color: #49a7e9; }
-.bg-blue     { background-color: #49a7e9 !important; }
+#jekyll-site-wrapper .border-blue { border-color: #49a7e9 !important; }
+#jekyll-site-wrapper .text-blue   { color: #49a7e9; }
+#jekyll-site-wrapper .text-blue a { color: #49a7e9; }
+#jekyll-site-wrapper .bg-blue     { background-color: #49a7e9 !important; }
 
-.border-green { border-color: #9bcf2f !important; }
-.text-green   { color: #9bcf2f; }
-.text-green a { color: #9bcf2f; }
-.bg-green     { background-color: #9bcf2f !important; }
+#jekyll-site-wrapper .border-green { border-color: #9bcf2f !important; }
+#jekyll-site-wrapper .text-green   { color: #9bcf2f; }
+#jekyll-site-wrapper .text-green a { color: #9bcf2f; }
+#jekyll-site-wrapper .bg-green     { background-color: #9bcf2f !important; }
 
-.border-purple { border-color: #c869bf !important; }
-.text-purple   { color: #c869bf; }
-.text-purple a { color: #c869bf; }
-.bg-purple     { background-color: #c869bf !important; }
+#jekyll-site-wrapper .border-purple { border-color: #c869bf !important; }
+#jekyll-site-wrapper .text-purple   { color: #c869bf; }
+#jekyll-site-wrapper .text-purple a { color: #c869bf; }
+#jekyll-site-wrapper .bg-purple     { background-color: #c869bf !important; }
 
-.border-orange { border-color: #fab125 !important; }
-.text-orange   { color: #fab125; }
-.text-orange a { color: #fab125; }
-.bg-orange     { background-color: #fab125 !important; }
+#jekyll-site-wrapper .border-orange { border-color: #fab125 !important; }
+#jekyll-site-wrapper .text-orange   { color: #fab125; }
+#jekyll-site-wrapper .text-orange a { color: #fab125; }
+#jekyll-site-wrapper .bg-orange     { background-color: #fab125 !important; }
 
-.border-turquoise { border-color: #0fbfcf !important; }
-.text-turquoise   { color: #0fbfcf; }
-.text-turquoise a { color: #0fbfcf; }
-.bg-turquoise     { background-color: #0fbfcf !important; }
+#jekyll-site-wrapper .border-turquoise { border-color: #0fbfcf !important; }
+#jekyll-site-wrapper .text-turquoise   { color: #0fbfcf; }
+#jekyll-site-wrapper .text-turquoise a { color: #0fbfcf; }
+#jekyll-site-wrapper .bg-turquoise     { background-color: #0fbfcf !important; }
 
 
 /* ----- per-post colors! ----- */
@@ -508,67 +508,67 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-video { border-color: #0fbfcf; }
-  #video { background-color: #0fbfcf !important; color: #f8f8f8; }
-  #video a { color: #f8f8f8; }
-  #video .sectiondivider { color: #0fbfcf; }
+  #jekyll-site-wrapper nav .p-video { border-color: #0fbfcf; }
+  #jekyll-site-wrapper #video { background-color: #0fbfcf !important; color: #f8f8f8; }
+  #jekyll-site-wrapper #video a { color: #f8f8f8; }
+  #jekyll-site-wrapper #video .sectiondivider { color: #0fbfcf; }
 
   
   
   
-  nav .p-updating { border-color: #c869bf; }
-  #updating { background-color: #c869bf !important; color: #f8f8f8; }
-  #updating a { color: #f8f8f8; }
-  #updating .sectiondivider { color: #c869bf; }
+  #jekyll-site-wrapper nav .p-updating { border-color: #c869bf; }
+  #jekyll-site-wrapper #updating { background-color: #c869bf !important; color: #f8f8f8; }
+  #jekyll-site-wrapper #updating a { color: #f8f8f8; }
+  #jekyll-site-wrapper #updating .sectiondivider { color: #c869bf; }
 
   
   
   
-  nav .p-usage { border-color: #63BD2F; }
-  #usage { background-color: #63BD2F !important; color: #f8f8f8; }
-  #usage a { color: #f8f8f8; }
-  #usage .sectiondivider { color: #63BD2F; }
+  #jekyll-site-wrapper nav .p-usage { border-color: #63BD2F; }
+  #jekyll-site-wrapper #usage { background-color: #63BD2F !important; color: #f8f8f8; }
+  #jekyll-site-wrapper #usage a { color: #f8f8f8; }
+  #jekyll-site-wrapper #usage .sectiondivider { color: #63BD2F; }
 
   
   
   
-  nav .p-details { border-color: #fab125; }
-  #details { background-color: #fab125 !important; color: #111111; }
-  #details a { color: #111111; }
-  #details .sectiondivider { color: #fab125; }
+  #jekyll-site-wrapper nav .p-details { border-color: #fab125; }
+  #jekyll-site-wrapper #details { background-color: #fab125 !important; color: #111111; }
+  #jekyll-site-wrapper #details a { color: #111111; }
+  #jekyll-site-wrapper #details .sectiondivider { color: #fab125; }
 
   
   
   
-  nav .p-why { border-color: #49a7e9; }
-  #why { background-color: #49a7e9 !important; color: #f8f8f8; }
-  #why a { color: #f8f8f8; }
-  #why .sectiondivider { color: #49a7e9; }
+  #jekyll-site-wrapper nav .p-why { border-color: #49a7e9; }
+  #jekyll-site-wrapper #why { background-color: #49a7e9 !important; color: #f8f8f8; }
+  #jekyll-site-wrapper #why a { color: #f8f8f8; }
+  #jekyll-site-wrapper #why .sectiondivider { color: #49a7e9; }
 
   
   
   
-  nav .p-intro { border-color: #f8f8f8; }
-  #intro { background-color: #f8f8f8 !important; color: #111111; }
-  #intro a { color: #111111; }
-  #intro .sectiondivider { color: #f8f8f8; }
+  #jekyll-site-wrapper nav .p-intro { border-color: #f8f8f8; }
+  #jekyll-site-wrapper #intro { background-color: #f8f8f8 !important; color: #111111; }
+  #jekyll-site-wrapper #intro a { color: #111111; }
+  #jekyll-site-wrapper #intro .sectiondivider { color: #f8f8f8; }
 
 
 
 /* ----- code, syntax highlighting, etc ----- */
 
-code, pre { font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }
+#jekyll-site-wrapper code, #jekyll-site-wrapper pre { font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }
 
 /* spesifically inline code */
-code, pre {
+#jekyll-site-wrapper code, #jekyll-site-wrapper pre {
   background: rgba(255,255,255,0.2);
   display: inline;
   word-wrap: break-word;
 }
 
 /* block code */
-pre code { background: none; display: block; }
-pre {
+#jekyll-site-wrapper pre code { background: none; display: block; }
+#jekyll-site-wrapper pre {
   display: block;
   margin: 20px 5%;
   padding: 4px 8px;
@@ -576,50 +576,50 @@ pre {
   word-wrap: break-word;
 }
 
-.highlight { margin:20px 5%; }
+#jekyll-site-wrapper .highlight { margin:20px 5%; }
 
 
 /* ----- base elements ----- */
 
-img {
+#jekyll-site-wrapper img {
   max-width:100%!important;
   height:auto;
   vertical-align:middle;
 }
 
-hr {
+#jekyll-site-wrapper hr {
   margin:60px auto;
   width:50%;
   border-color: #111111;
 }
 
-.container { word-wrap: break-word; }
-.center { text-align: center; }
-.left, .container .left { text-align: left; }
+#jekyll-site-wrapper .container { word-wrap: break-word; }
+#jekyll-site-wrapper .center { text-align: center; }
+#jekyll-site-wrapper .left, #jekyll-site-wrapper .container .left { text-align: left; }
 
-.container h1, .container h2, .container h3, .container h4 {
+#jekyll-site-wrapper .container h1, #jekyll-site-wrapper .container h2, #jekyll-site-wrapper .container h3, #jekyll-site-wrapper .container h4 {
   margin-bottom: 20px;
   text-align: center;
   padding: 0 4%;
 }
-.container p, .container ol, .container ul {
+#jekyll-site-wrapper .container p, #jekyll-site-wrapper .container ol, #jekyll-site-wrapper .container ul {
   font-size: 17px;
   padding: 0 5%;
 }
-.container ol, .container ul { padding: 0 8%; }
-.container p:first-of-type {
+#jekyll-site-wrapper .container ol, #jekyll-site-wrapper .container ul { padding: 0 8%; }
+#jekyll-site-wrapper .container p:first-of-type {
     margin-top: 40px;
 }
 
 /* keep embedded videos fluid! */
-.icontain {
+#jekyll-site-wrapper .icontain {
   position: relative;
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%; /* keep 16x9 Aspect Ratio */
 }
-.i4x3 { padding-bottom: 75.00%; } /* keep 4x3 Aspect Ratio */
-.icontain iframe {
+#jekyll-site-wrapper .i4x3 { padding-bottom: 75.00%; } /* keep 4x3 Aspect Ratio */
+#jekyll-site-wrapper .icontain iframe {
   position: absolute;
   top:0;
   left: 0;
@@ -627,7 +627,7 @@ hr {
   height: 100%;
 }
 
-.inlineblock {
+#jekyll-site-wrapper .inlineblock {
   display:-moz-inline-stack;
   display:inline-block;
   zoom:1;
@@ -643,17 +643,17 @@ hr {
 
 
 
-nav {
+#jekyll-site-wrapper nav {
   font-size:15px;
   width:100%;
-  position:fixed;
+  position:fixed; /* This will make your Jekyll nav fixed within the wrapper */
   z-index:100;
   top:0;
   left:0;
   background:#2e2e2e;
 }
 
-nav ul {
+#jekyll-site-wrapper nav ul {
   list-style:none;
   text-align:center;
   padding:0;
@@ -661,7 +661,7 @@ nav ul {
   letter-spacing:-4px;
 }
 
-nav ul li {
+#jekyll-site-wrapper nav ul li {
   display:inline-block;
   border-top:3px solid;
   padding: 3px;
@@ -675,7 +675,7 @@ nav ul li {
   margin:0;
 }
 
-nav ul li a, nav ul li a:visited {
+#jekyll-site-wrapper nav ul li a, #jekyll-site-wrapper nav ul li a:visited {
   display:block;
   color:#fff;
   text-decoration:none;
@@ -683,10 +683,10 @@ nav ul li a, nav ul li a:visited {
   opacity:.75;
 }
 
-nav ul li a:hover {
+#jekyll-site-wrapper nav ul li a:hover {
   opacity:1
 }
-nav ul li:hover, nav ul li.active {
+#jekyll-site-wrapper nav ul li:hover, #jekyll-site-wrapper nav ul li.active {
   border-top-width: 6px;
   padding-top: 0;
 }
@@ -694,31 +694,31 @@ nav ul li:hover, nav ul li.active {
 
 /* ----- sections/articles ----- */
 
-.section {
+#jekyll-site-wrapper .section {
   position:relative;
   display:block;
   width:100%;
   min-height:300px;
   padding:210px 0;
-  background:url(img/bgnoise.png);
+  background:url(img/bgnoise.png); /* You'll need to adjust this image path to your child theme's assets */
   /* generated noise from noisetexturegenerator.com */
 }
 
-.section:first-of-type {
+#jekyll-site-wrapper .section:first-of-type {
     padding-top: 140px;
 }
 
 
-#footer {
+#jekyll-site-wrapper #footer {
   padding: 8px 0;
   min-height:0;
   text-align:center;
   background-color:#2e2e2e;
   background-image:none;
 }
-#footer .container p { font-size:13px; margin:0; }
+#jekyll-site-wrapper #footer .container p { font-size:13px; margin:0; }
 
-.subtlecircle {
+#jekyll-site-wrapper .subtlecircle {
   text-align:center;
   z-index:3;
   border-radius:50%;
@@ -728,7 +728,7 @@ nav ul li:hover, nav ul li.active {
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAF0lEQVQIHWP8//+/MQMaYELjg7kUCgIASm8DOqGzfp8AAAAASUVORK5CYII=);
 }
 
-.sectiondivider {
+#jekyll-site-wrapper .sectiondivider {
   width:270px;
   height:270px;
   padding:15px;
@@ -738,21 +738,21 @@ nav ul li:hover, nav ul li.active {
   margin-left:-135px;
 }
 
-.sectiondivider img {
+#jekyll-site-wrapper .sectiondivider img {
   width:200px;
   height:240px;
   position: static;
   margin-top: -20px;
 }
 
-.sectiondivider .fa-stack {
+#jekyll-site-wrapper .sectiondivider .fa-stack {
   font-size: 130px;
   position: static;
   margin-top: -8px;
 }
-.sectiondivider .fa-circle { color: #fff; }
+#jekyll-site-wrapper .sectiondivider .fa-circle { color: #fff; }
 
-.sectiondivider h5 {
+#jekyll-site-wrapper .sectiondivider h5 {
   font-size:15px;
   font-weight:700;
   text-transform:uppercase;
@@ -765,12 +765,12 @@ nav ul li:hover, nav ul li.active {
   width:240px;
 }
 
-.sectiondivider.imaged {
+#jekyll-site-wrapper .sectiondivider.imaged {
   text-shadow: 1px 1px 3px #333;
 }
 
 
-.columned {
+#jekyll-site-wrapper .columned {
   -webkit-column-count: 3;
   -moz-column-count:    3;
   column-count:         3;
@@ -783,13 +783,13 @@ nav ul li:hover, nav ul li.active {
   -moz-column-rule:    1px outset rgba(255,255,255,0.5);
   column-rule:         1px outset rgba(255,255,255,0.5);
 }
-.longlist { font-size: 14px !important; }
-.longlist li { margin-bottom: 3px; }
+#jekyll-site-wrapper .longlist { font-size: 14px !important; }
+#jekyll-site-wrapper .longlist li { margin-bottom: 3px; }
 
 
 
 /* ----- fork on github banner ----- */
-#forkongithub a {
+#jekyll-site-wrapper #forkongithub a {
   color:#fff;
   text-decoration:none;
   font-family:arial,sans-serif;
@@ -801,13 +801,13 @@ nav ul li:hover, nav ul li.active {
   transition:.5s;
   padding:5px 40px;
 }
-#forkongithub a::before, #forkongithub a::after {
+#jekyll-site-wrapper #forkongithub a::before, #jekyll-site-wrapper #forkongithub a::after {
   content:""; width:100%; display:block; position:absolute;
   top:1px; left:0; height:1px; background:#fff;
 }
-#forkongithub a::after { bottom:1px; top:auto; }
+#jekyll-site-wrapper #forkongithub a::after { bottom:1px; top:auto; }
 @media screen and (min-width:800px) {
-  #forkongithub {
+  #jekyll-site-wrapper #forkongithub {
     position:fixed;
     display:block;
     top:0;
@@ -817,7 +817,7 @@ nav ul li:hover, nav ul li.active {
     height:200px;
     z-index:9999;
   }
-  #forkongithub a {
+  #jekyll-site-wrapper #forkongithub a {
     width:200px;
     position:absolute;
     top:60px;
@@ -836,8 +836,8 @@ nav ul li:hover, nav ul li.active {
 
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
-  nav { font-size:11px; }
-  nav ul li {
+  #jekyll-site-wrapper nav { font-size:11px; }
+  #jekyll-site-wrapper nav ul li {
     min-width:60px;
     line-height:40px;
   }
@@ -845,43 +845,42 @@ nav ul li:hover, nav ul li.active {
 
 /* tiny size (phones) */
 @media only screen and (max-width: 380px) {
-  nav ul li { min-width:90px; line-height:20px; }
+  #jekyll-site-wrapper nav ul li { min-width:90px; line-height:20px; }
 }
 
 /* anything not desktop */
 @media only screen and (max-width: 767px) {
-	.container h1 { font-size: 30px; }
-	.container h2 { font-size: 24px; }
-	.container h3 { font-size: 20px; }
-	.container h4 { font-size: 18px; }
+	#jekyll-site-wrapper .container h1 { font-size: 30px; }
+	#jekyll-site-wrapper .container h2 { font-size: 24px; }
+	#jekyll-site-wrapper .container h3 { font-size: 20px; }
+	#jekyll-site-wrapper .container h4 { font-size: 18px; }
 
 
-  .section { padding:130px 0; }
-  .sectiondivider {
+  #jekyll-site-wrapper .section { padding:130px 0; }
+  #jekyll-site-wrapper .sectiondivider {
     width:200px;
     height:200px;
     padding:15px;
     top:-100px;
     margin-left:-100px;
   }
-  .sectiondivider img {
+  #jekyll-site-wrapper .sectiondivider img {
     width:150px;
     height:180px;
   }
-  .sectiondivider .fa-stack {
+  #jekyll-site-wrapper .sectiondivider .fa-stack {
     font-size: 100px;
     margin-top: -14px;
   }
-  .sectiondivider h5 {
+  #jekyll-site-wrapper .sectiondivider h5 {
     font-size:15px;
     bottom:30px;
     width:170px
   }
 
-  .columned {
+  #jekyll-site-wrapper .columned {
     -webkit-column-count: 2;
     -moz-column-count:    2;
     column-count:         2;
   }
 }
-
