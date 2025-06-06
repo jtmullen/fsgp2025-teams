@@ -108,7 +108,7 @@ with open("team-data.csv", 'r', newline='') as datafile:
         <p>{team['Bio']}</p>
         <hr>""")
 			
-			htmlfile.write(f"""        <h5>{team['Car Name']} Specifications</h5>
+			htmlfile.write(f"""        <h5>Vehicle Specifications</h5>
         <i>Specifications are provided by the team</i><br><br>
         <table class="table table-sm">
           <tr><th class="text-end">Size</th><td>{team['Weight']}kg | {team['Dimensions']}</td></tr>
